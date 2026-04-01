@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyStore - Order Confirmation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-header">
+    <div class="logo"><a href="index.html">MyStore</a></div>
+    <nav class="header-actions">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart (<span class="cart-count">0</span>)</a>
+      <a href="orders.html">Orders</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container page-top">
+    <div class="success-card">
+      <div class="success-icon">✓</div>
+      <h2>Thank You!</h2>
+      <p>Your order has been placed successfully.</p>
+      <div class="order-info-box">
+        <p><strong>Order ID:</strong> <span id="order-id"></span></p>
+        <p><strong>Total:</strong> <span id="order-total"></span></p>
+      </div>
+      <div class="success-buttons">
+        <a href="orders.html" class="view-btn">Order History</a>
+        <a href="products.html" class="checkout-btn">Continue Shopping</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 MyStore. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
